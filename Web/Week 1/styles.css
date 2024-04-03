@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+body {
+    background: fixed;
+    background: rgb(236, 234, 234);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.hero {
+    display: none;
+    background: #a4c3d8;
+    width: 70%;
+    margin-left: 15%;
+    height: 500px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* Show corresponding section when targeted by URL fragment identifier */
+.hero:target {
+    display: block;
+}
+
+.hero p {
+    margin-top: 30px;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+.hero .project-list {
+    margin-top: 20px;
+
+}
+
+.hero .project-list ol {
+    margin: 0 auto; /* Center the list */
+    padding-left: 0; /* Remove default padding */
+}
+
+.hero .project-list ol li {
+    margin-top: 10px;
+}
+
+
+
+
+
+
